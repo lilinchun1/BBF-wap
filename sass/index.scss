@@ -1,2 +1,28 @@
 @charset "UTF-8";
 @import "rest";
+
+.wrap{
+  margin: 0 auto;
+  width: 93.75%;
+  overflow: hidden;
+}
+.top-head{
+  height: 46px;
+    .btn1{
+      float: left;
+      width: 49.33333%;
+      height: 46px;
+      border-top: 5px solid #616161;
+      border-bottom: 5px solid #616161;
+      background: #747474;
+      color: #ffffff;
+      line-height: 36px;
+      text-align: center;
+      font-size: 2.2em;
+      font-weight: bold;
+    }
+    .btn2{
+      font-size: 1.6em;
+      font-weight: normal;
+      float: right;}
+}
