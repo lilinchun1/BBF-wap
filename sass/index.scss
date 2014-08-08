@@ -12,7 +12,7 @@ $font-color2:#999999;
 }
 .top-head{
   height: 46px;
-  margin-bottom: 13px;
+  margin-bottom: 3px;
     .btn1{
       float: left;
       width: 49.33333%;
@@ -36,7 +36,9 @@ $font-color2:#999999;
 }
 .content-mode1{
   position: relative;
+  margin-bottom: 10px;
   width: 100%;
+  background: #ffffff;
   overflow: hidden;
 }
 .content-img{
@@ -66,7 +68,7 @@ $font-color2:#999999;
   }
 }
 .index-footer{
-  margin: 0 auto 22px auto;
+  margin: 12px auto 22px auto;
   width: 60%;
   height: 28px;
   line-height: 28px;
