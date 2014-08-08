@@ -1,13 +1,18 @@
 @charset "UTF-8";
 @import "rest";
-
-.wrap{
+$font-color-money:#cc9966;  //字体颜色 钱
+$font-color2:#999999;
+%wrap{
   margin: 0 auto;
   width: 93.75%;
   overflow: hidden;
 }
+.wrap{
+  @extend %wrap;
+}
 .top-head{
   height: 46px;
+  margin-bottom: 13px;
     .btn1{
       float: left;
       width: 49.33333%;
@@ -25,4 +30,48 @@
       font-size: 1.6em;
       font-weight: normal;
       float: right;}
+}
+.content-wrap{
+  @extend %wrap;
+}
+.content-mode1{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.content-img{
+  width: 100%;
+    img{
+      width: 100%;}
+}
+.content-info{
+  position: relative;
+  top: -55px;
+  padding: 3%;
+  margin: 0 auto;
+  width: 89%;
+  background: #ffffff;
+    header{
+      font-size: 2.4em;
+      line-height: 1.2em;
+    }
+  .price{
+    margin: 12px 0 6px 0;
+    color: $font-color-money;
+    font-size: 1.2em;
+  }
+  p{
+    font-size: 1.2em;
+    color:$font-color2;
+  }
+}
+.index-footer{
+  margin: 0 auto 22px auto;
+  width: 60%;
+  height: 28px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  background: #c2c2c2;
 }
