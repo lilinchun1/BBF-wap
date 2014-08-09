@@ -34,6 +34,7 @@ $font-color2:#999999;
 .content-wrap{
   @extend %wrap;
 }
+/*index 开始*/
 .content-mode1{
   position: relative;
   margin-bottom: 10px;
@@ -77,3 +78,65 @@ $font-color2:#999999;
   font-size: 1.2em;
   background: #c2c2c2;
 }
+/*index结束*/
+
+/*show页 开始*/
+.content-mode2{
+  width: 100%;
+  overflow: hidden;
+    h1{
+      margin-top: 10px;
+      font-size: 2em;
+      color: #333;
+      line-height: 1.2em;
+    }
+    .price{
+      margin: 12px 0 6px 0;
+      color: $font-color-money;
+      font-size: 1.2em;
+    }
+    p{
+      margin: 6px 0;
+      font-size: 1.2em;
+      color:$font-color2;
+    }
+  img{
+    margin: 10px 0 10px 0;
+    width: 100%;}
+
+}
+.show-aside-list{
+  width: 100%;
+  overflow: hidden;
+}
+.aside-list{
+  width: 100%;
+  overflow: hidden;
+  li{
+    margin-right: 1.25%;
+    float: left;
+    width: 32.5%;
+    background: #ffffff;
+    &:last-of-type{
+      float: right;
+      margin: 0;}
+  }
+  .aside-list-last-li{
+    margin-right: 0;
+  }
+  .aside-list-img{
+    img{ width: 100%;}
+  }
+  .aside-list-info{
+    position: relative;
+    top: -44px;
+    padding: 4.7%;
+    margin: 0 auto;
+    width: 90%;
+    background: #ffffff;
+    header{
+      font-size: 1em;
+    }
+  }
+}
+/*show页 结束*/
